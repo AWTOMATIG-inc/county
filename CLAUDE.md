@@ -17,8 +17,10 @@ New York (62 counties), Arkansas (75) and Florida (67, added 2026-11-18, caps 40
   one per line as `name - apify_api_...`, used top to bottom. The user adds keys at the bottom.
 - **Never rerun a county unless asked.** A rerun overwrites its CSV and costs money.
 - When a decision is the user's to make, ask with a recommended option.
-- Commits and PRs carry no Claude attribution (see the global CLAUDE.md). This folder is not
-  a git repo yet.
+- Commits and PRs carry no Claude attribution (see the global CLAUDE.md). Git repo since
+  2026-11-18, remote `git@github.com:AWTOMATIG-inc/county.git` (**public**), branch `main`.
+  Push over SSH: HTTPS uses the khalidhasananik login, which gets a 403. `.env`, `data/`,
+  backups and `some.txt` (old tokens) are gitignored. Never commit tokens or scraped data.
 - **Log everything in memory.** After any change, decision, real run, data check or balance
   check, add a dated entry (newest at the bottom) to the `work-log` memory file
   (`memory/work-log.md` in Claude's memory folder). Each entry says what was done, the result,
