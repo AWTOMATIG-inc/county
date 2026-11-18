@@ -1,0 +1,14 @@
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+data/
+.env
+.env.local
+.env*.local
+
+# Local data backups
+backup-*.zip
+
+# Local notes (holds API tokens)
+some.txt
